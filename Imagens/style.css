@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8E4BF;
+}
+
+img {
+    max-width: 300px;
+    display: block; /* Transforma a imagem em um bloco para que o margin funcione */
+    margin: 0 auto; /* Aplica margens automáticas para centralizar horizontalmente */
+}
+
+header {
+    background-color: #784D2A;
+    padding: 19px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+header > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+
+
+}
+
+header > nav > a:hover {
+    color: #784D2A;
+    background-color: white;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 100%;
+    width: 0px;
+    background-color: #784D2A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
