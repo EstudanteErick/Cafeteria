@@ -16,6 +16,24 @@ img {
     margin: 0 auto; /* Aplica margens automáticas para centralizar horizontalmente */
 }
 
+img#p {
+    width: 100%;
+    margin-top: 8px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 28px;
+
+}
+
+img#a {
+    width: 100%;
+    margin-top: 8px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 28px;
+
+}
+
 header {
     background-color: #784D2A;
     padding: 19px;
@@ -49,6 +67,45 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header#p {
+    background-color: white;
+  padding: 0px 3%; /* Ajustado para 3% */
+  border-radius: 19px;
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+header#a {
+    background-color: white;
+    padding: 0px 3%;
+    border-radius: 19px;
+    text-align: center;
+    margin-top: 27px;
+}
+
+header#b {
+    background-color: white;
+    padding: 0px 3%;
+    border-radius: 19px;
+    text-align: center;
+    margin-top: 27px; 
+}
+
+header#c {
+    background-color: white;
+    padding: 0px 3%;
+    border-radius: 19px;
+    text-align: center;
+    margin-top: 27px;
+}
+
+header#d {
+    background-color: white;
+    padding: 0px 3%;
+    border-radius: 19px;
+    text-align: center;
+    margin-top: 27px;
+}
+
 nav {
     height: 100%;
     width: 0px;
@@ -63,8 +120,56 @@ nav {
 
 h2 {
     text-align: center;
+    margin-top: 8px;
+    position: relative;
+    top: -16px;
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+
+h2#h {
+    position: relative;
+    top: 2px;
+}
+
+h2#n {
+    position: relative;
+    top: 25px;
+}
+
+h2#o {
+    position: relative;
+    top: 29px;
+}
+
+h3 {
+    display: block; /* Transforma a imagem em um bloco para que o margin funcione */
+    margin: 0 auto; /* Aplica margens automáticas para centralizar horizontalmente */
+    font-size: 22px;
+    font-family: 'Montserrat';
 }
 
 p {
     text-align: center;
+}
+
+p#f {
+    position: relative;
+    top: -13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a#t {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding: 0px;
+    margin-top: 62px;
+    color: black;
+    text-decoration: auto;
+    border-radius: 58px;
+    background-color: #31d438;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
 }

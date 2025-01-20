@@ -5,3 +5,4 @@ function abrirMenu() {
 function fecharMenu() {
     document.getElementById('menu').style.width = '0px';
 }
+
